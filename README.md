@@ -18,3 +18,5 @@ git clone https://github.com/Meet03-hub/adani-rag-pdf.git
 cd adani-rag-pdf
 
 node src/index.js "./data/AEL Press Release Q2 FY26.pdf"
+
+### step 2:
