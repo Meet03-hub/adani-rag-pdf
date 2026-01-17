@@ -2,7 +2,7 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 import { PDFLoader } from "@langchain/community/document_loaders/fs/pdf";
-import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
+import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { GoogleGenerativeAIEmbeddings } from "@langchain/google-genai";
 import { Pinecone } from "@pinecone-database/pinecone";
 import { PineconeStore } from "@langchain/pinecone";
